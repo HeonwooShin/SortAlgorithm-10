@@ -1,0 +1,13 @@
+span {
+    font-size: 200px;
+    border: solid black 3px;
+}
+
+.btn {
+    display: inline;
+    font-size: 100px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
