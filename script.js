@@ -52,7 +52,8 @@ function bubbleSort(array) {
                 displayArray(array)
             }
             step += 1;
-            console.log(`[${array}], step: ${step}, iteration: ${iteration}`); 
+            console.log(`[${array}], step: ${step}, iteration: ${iteration}`);
+            startBtn.innerHTML = `step: ${step}, iteration: ${iteration}`
         }
 
         isTheSameArray = true;
