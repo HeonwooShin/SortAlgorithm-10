@@ -49,7 +49,6 @@ function bubbleSort(array) {
             if (a > b) {
                 array.splice(i, 1, b);
                 array.splice(i+1, 1, a);
-                displayArray(array)
             }
             step += 1;
             console.log(`[${array}], step: ${step}, iteration: ${iteration}`);
@@ -61,6 +60,7 @@ function bubbleSort(array) {
             if (orderedArray[i] !== array[i])
                 isTheSameArray = false;
     }
+    displayArray(array)
 }
 
 
